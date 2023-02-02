@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio task2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0887db3c54.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h2 class="logo">Portfo<span>lio</span></h2>
+               <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+               </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>I'm<span>Vaishnavi</span> </h1>
+                <p>I'm web developer , student of computer engineering in third year</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/img2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3>Developer</h3><br>
+                    <p>I am a front-end Developer. I can provide clean and perfect design. I also make the website more and more interactive with web animations. I can also provide clean and pixel perfect design. A responsive design makes your website accessible to all users, regarless of their device</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web development</span><br>Web app development</li>
+                            <li><span>Team work</span><br>Good experience of team work</li>
+                            <li><span>Communication</span><br>Good communication skill</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>OASIS web development internship</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Secondary school education with 88.8% score</li>
+                            <li><span>2020</span><br>Higher Secondary school education with 75% score</li>
+                            <li><span>2021</span><br>First year computer engineering with 8.39 sgpa</li>
+                            <li><span>2022</span><br>Second year computer engineering with 7.34 sgpa</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Every website should be built with two primary goals. Firstly it needs to work accross all devices. Secondly it needs to fast as possible</p><br>
+                    <button type="learn more" class="btn btn2">Learn more</button>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Front end development</h2>
+                    <p>Every front end of website should be built with two primary goals. Firstly it needs to work accross all devices. Secondly it needs to fast as possible</p><br>
+                    <button type="learn more" class="btn btn2">Learn more</button>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Every app should be built with two primary goals. Firstly it needs to work accross all devices. Secondly it needs to fast as possible</p><br>
+                    <button type="learn more" class="btn btn2">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Landing page for travel agency</h3>
+                        <p>I developed a landing page of travel agency. Landing page aim to increase conversation. and provide additional insights into target audience</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Personal Portfolio website</h3>
+                        <p>I built a personal portfolio.A portfolio is a living and changing collection of records that reflect your accomplishments, skills, experiences, and attributes.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                                     
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Temperature converter</h3>
+                        <p>I made a temperature converter which helps to convert temperature from degree celsius to fahrenheit.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>    
+                </div>
+            
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="conact-left">
+                    <h1>Contact me</h1><br>
+                    <p>vaishnalawade2002@gmail.com</p><br>
+                    <p>7498108873</p><br>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></i></a>
+                    </div>
+                    
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="conact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="class copyright">
+            <p>Copyright @ Portfolio. Made with by easy tutorials</p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classlist.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classlist.add("active-tab");
+        }
+    </script>
+</body>
+</html>
